@@ -1,4 +1,5 @@
 Problem from ACM 2010 Southeast Regional Programming Contest:
+
 As you may know, balloons are handed out during ACM contests to teams as they solve problems. However, this sometimes presents logistical challenges. In particular, one contest hosting site maintains two rooms, A and B, each containing a supply of balloons. There are N teams attending the contest at that site, each sitting at a different location. Some are closer to room A, others are closer to room B, and others are equally distant. Given the number of balloons needed by each team and the distance from each team to room A, and to room B, what is the minimum total possible distance that must be traveled by all balloons as they are delivered to their respective teams, assuming they are allocated in an optimal fashion from rooms A and B? For the purposes of this problem, assume that all of the balloons are identical.
 
 Input:
@@ -12,6 +13,10 @@ Output:
 For each test case, output a single integer, representing the minimum total distance that must be traveled to deliver all of the balloons. Count only the outbound trip, from room A or room B to the team. Don’t count the distance that a runner must travel to return to room A or room B. Print each integer on its own line with no spaces. Do not print any blank lines between answers.
 
 Sample Input:
-3 15 35 10 20 10 10 10 30 10 40 10 00 0
+3 15 35
+10 20 10
+10 10 30
+10 40 10
+0 0 0
 Sample Output
 300
